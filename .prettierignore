@@ -1,0 +1,28 @@
+*
+CHANGELOG.md
+!*/
+!*.yml
+!*.json
+!*.js
+!*.mjs
+!*.ts
+!*.tsx
+!*.html
+!*.css
+!*.svelte
+!*.astro
+
+# npm files
+node_modules
+package.json
+package-lock.json
+
+# project
+dist
+lib
+.yarn
+.history
+**/coverage/
+
+.next
+.vercel

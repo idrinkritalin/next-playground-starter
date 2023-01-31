@@ -1,0 +1,11 @@
+{
+  "plugins": ["@typescript-eslint", "jest"],
+  "extends": [
+    "next/core-web-vitals",
+    "prettier",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "env": {
+    "jest/globals": true
+  }
+}

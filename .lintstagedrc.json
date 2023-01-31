@@ -1,0 +1,4 @@
+{
+  "*.{js,jsx,ts,tsx}": ["yarn lint", "yarn format:fix"],
+  "package.json": "yarn sort-package-json"
+}
