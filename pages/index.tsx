@@ -13,11 +13,9 @@ const Home: FunctionComponent<IHome> = () => {
         <title>Hello World</title>
         <meta name="description" content="Go and create" />
       </Head>
-      <html lang="en">
-        <main>
-          <Foo />
-        </main>
-      </html>
+      <main>
+        <Foo />
+      </main>
     </>
   )
 }
